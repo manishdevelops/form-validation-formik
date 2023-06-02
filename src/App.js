@@ -116,9 +116,7 @@ function App() {
 							) : null}
 						</div>
 						<div className='modal-buttons'>
-							<a href='#' className=''>
-								Want to register using Gmail?
-							</a>
+							<button>Want to register using Gmail?</button>
 							<button className='input-button' type='submit'>
 								Registration
 							</button>
