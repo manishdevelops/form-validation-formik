@@ -24,6 +24,7 @@ function App() {
 	// console.log(errors);
 
 	const postData = async (values) => {
+		// const { name, email, password, confirm_password } = values;
 		const res = await fetch(
 			'https://my-form-data-c8973-default-rtdb.firebaseio.com/my-form-data.json',
 			{
@@ -116,7 +117,6 @@ function App() {
 							) : null}
 						</div>
 						<div className='modal-buttons'>
-							<button>Want to register using Gmail?</button>
 							<button className='input-button' type='submit'>
 								Registration
 							</button>
